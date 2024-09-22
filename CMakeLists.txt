@@ -41,7 +41,7 @@ option(WITH_MOLD "Set to ON to use with mold" ${WITH_MOLD})
 option(BOX32 "Set to ON to add Linux 32bits support (experimental, do not use)" ${BO64})
 
 if(TERMUX)
-    set(TERMUX_PATH "/data/data/com.termux/files")
+    set(TERMUX_PATH "/data/data/com.vectras.as3/files")
     set(ANDROID ON CACHE BOOL "")
 endif()
 if(LARCH64)
