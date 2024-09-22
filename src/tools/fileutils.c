@@ -144,7 +144,7 @@ const char* GetTmpDir() {
     if ((tmpdir = getenv ("TMPDIR")) != NULL)               return tmpdir;
     if ((tmpdir = getenv ("TEMP")) != NULL)                 return tmpdir;
     if ((tmpdir = getenv ("TMP")) != NULL)                  return tmpdir;
-    if(FileExist("/data/data/com.termux/files/usr/tmp", 0)) return "/data/data/com.termux/files/usr/tmp";
+    if(FileExist("/data/data/com.vectras.as3/files/usr/tmp", 0)) return "/data/data/com.vectras.as3/files/usr/tmp";
     if(FileExist("/tmp", 0))                                return "/tmp";
     if(FileExist("/var/tmp", 0))                            return "/var/tmp";
     if(FileExist("/usr/tmp", 0))                            return "/usr/tmp";
